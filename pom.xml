@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>ar.edu.utn.frc.tup.lciii</groupId>
-	<artifactId>scaffolding</artifactId>
+	<artifactId>guess-number</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>scaffolding</name>
 	<description>Tempate SpringBoot</description>

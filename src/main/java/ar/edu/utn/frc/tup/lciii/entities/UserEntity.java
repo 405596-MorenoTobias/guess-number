@@ -9,13 +9,13 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class DummyEntity {
-
-
+public class UserEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
-
-    private String dummy;
+    @Column(name = "user_name", nullable = false)
+    private String userName;
+    @Column(name = "email", nullable = false)
+    private String email;
 }
