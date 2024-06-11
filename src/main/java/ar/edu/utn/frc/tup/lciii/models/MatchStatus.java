@@ -1,4 +1,5 @@
 package ar.edu.utn.frc.tup.lciii.models;
 
-public class MatchStatus {
+public enum MatchStatus {
+    PLAYING, FINISH
 }

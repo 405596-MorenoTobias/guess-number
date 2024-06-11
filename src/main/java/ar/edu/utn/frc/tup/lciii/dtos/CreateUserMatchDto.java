@@ -8,8 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class MatchDto {
-    private Long id;
-    private MatchDifficulty matchDifficulty;
-    private Integer remainingTries;
+public class CreateUserMatchDto {
+
+    private MatchDifficulty difficulty;
 }
